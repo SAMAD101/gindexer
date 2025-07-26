@@ -1,0 +1,5 @@
+type Transfer {
+  id: ID!
+  from: String!
+  to: String!
+}
