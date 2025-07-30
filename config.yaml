@@ -11,7 +11,3 @@ networks:
         handler: src/EventHandlers.ts
         events:
           - event: "Transfer(address indexed from, address indexed to, uint256 value)"
-# Unordered multichain mode allows you to index events from multiple chains
-# in realtime but doesn't guarentee ordering between chains
-# https://docs.envio.dev/docs/HyperIndex/multichain-indexing#unordered-multichain-mode
-unordered_multichain_mode: true

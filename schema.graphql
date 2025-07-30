@@ -2,4 +2,6 @@ type Transfer {
   id: ID!
   from: String!
   to: String!
+  blockNumber: Int!
+  logIndex: Int!
 }

@@ -1,5 +1,5 @@
 import assert from "assert";
-import { TestHelpers, Account } from "generated";
+import { TestHelpers } from "generated";
 const { MockDb, ERC20, Addresses } = TestHelpers;
 
 describe("Transfers", () => {
